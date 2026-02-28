@@ -1,1 +1,15 @@
-
+<ModifierDefs>
+	<List>
+		<Modifier Name="Fuzen_DivinePowder">
+			<DisplayName>ผงละอองสวรรค์ S+</DisplayName>
+			<MaxStack>1</MaxStack>
+			<Duration>99999999</Duration>
+			<Color>66BD64</Color>
+			<Sync>1</Sync>
+			<Properties>
+				<li Name="NpcLingMaxValue" AddV="200000" />
+				<li Name="LingAbsorbSpeed" AddP="20" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>
