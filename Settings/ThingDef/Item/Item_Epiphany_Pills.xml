@@ -1,0 +1,24 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_Dan_Epiphany" Parent="DrugBase">
+		<ThingName>โอสถวิมุตติระดับปฐพี</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao05</TexPath>
+		<Desc>เพิ่มปราณ 1 แสนหน่วย เพิ่มอายุขัย 9 หมื่น ปี เพิ่มสลอตอาวุธ 6ช่อง เพิ่มอัตราหลอมยาไวขึ้นและเพิ่มระดับหลอมยาระดับสูง สามารถคุมอาวุธค่ากล10ชิ้น.</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_Epiphany_Crafting</Modifier>
+				<TreeExp>9999999</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Wood" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Food>
+                    <Nutrition>10</Nutrition>
+                    <Water>0</Water>
+                    <PracticeNutrition>9999</PracticeNutrition>
+            </Food>
+		</Item>
+	</ThingDef>
+</List></ThingDefs>

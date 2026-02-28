@@ -1,0 +1,26 @@
+﻿<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="Fuzen_JunkPill" Parent="WanJie_DanBase">
+      <ThingName>โอสถอาจาร์คง</ThingName>
+      <Desc>เพิ่มปราณ 100ล้านหน่วยและ เพิ่มอายุไข 1 หมื่นปี.</Desc>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_plaster03</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+                  <CostItems>
+            <Item name="Item_Wood" count="1" />
+        </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>Fuzen_JunkPill</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>Fuzen_JunkPill</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>
