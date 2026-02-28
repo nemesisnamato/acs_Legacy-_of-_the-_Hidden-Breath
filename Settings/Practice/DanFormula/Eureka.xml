@@ -1,0 +1,11 @@
+<DanFormulas>
+  <List>
+    <Dan Name="Fuzen_EurekaPill">
+      <SuccessRate>0</SuccessRate>
+      <ItemName>Fuzen_EurekaPill</ItemName>
+      <Level>1</Level>
+      <Count>0.1</Count>
+      <Normal>1</Normal>
+    </Dan>
+  </List>
+</DanFormulas>
