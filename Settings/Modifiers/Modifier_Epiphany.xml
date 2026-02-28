@@ -1,0 +1,19 @@
+<ModifierDefs><List>
+	<Modifier Name="Modifier_Epiphany_Crafting" Type="Normal">
+		<DisplayName>โอสถวิมุตติระดับปฐพี</DisplayName>
+		<Desc>Epiphany Effect Active</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+            <li Name="MaxAge" AddP="0" AddV="90000" BAddP="0" BAddV="0" Type="1" />
+              <li Name="NpcLingMaxValue"                  AddV="100000" Type="1" />
+              <li Name="NpcFight_ZhenEnginePower"             AddV="1000" Type="1" />
+              <li Name="NpcFight_ZhenKeyPointNum"                  AddV="10" Type="1" />
+              <li Name="NpcFight_FabaoNum" AddV="6" Type="1" />
+              	<li Name="DanMake_Speed"                    AddV="10" Type="1" />
+                <li Name="DanMake_Yield" AddP="2" Type="1" />
+              
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

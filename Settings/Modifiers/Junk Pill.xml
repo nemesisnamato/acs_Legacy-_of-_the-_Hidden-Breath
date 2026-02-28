@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModifierDefs>
+	<List>
+		<Modifier Name="Fuzen_JunkPill">
+			<DisplayName>โอสถอาจาร์คง </DisplayName>
+			<MaxStack>0</MaxStack>
+			<Duration>-1</Duration>
+			<Sync>1</Sync>
+			<Properties>
+				<li Name="NpcLingMaxValue" AddV="100000000"/>
+			<li Name="MaxAge" AddV="10000"/></Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>
